@@ -1,0 +1,1000 @@
+{
+  "users": [
+    {
+      "id": "u-admin",
+      "username": "admin",
+      "email": "admin@moviepanelbd.com",
+      "role": "admin",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "bio": "Lead Administrator of MOVIE PANEL BD. Ensuring content quality and copyright compliance.",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "subscribersCount": 24500,
+      "subscribedCreators": [],
+      "passwordHash": "3460794bfecdd46eb711f1a57d0dad1391af09d37182e8736e32a5788b299faa6646ea23e5329b3440b2565d5cb4b636da124b405af161ca030ddc50e787cbbb",
+      "salt": "1dd592e5547462163e11adc0dc1de2f8"
+    },
+    {
+      "id": "u-creator",
+      "username": "creator_rahim",
+      "email": "rahim@bengalcinema.com",
+      "role": "creator",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "bio": "Independent filmmaker and cinema archivist from Dhaka. Sharing the best of Bengali and South Asian cinema.",
+      "createdAt": "2026-01-15T00:00:00.000Z",
+      "subscribersCount": 88199,
+      "subscribedCreators": [
+        "u-admin"
+      ],
+      "passwordHash": "e22ddb3742dd9f5db728aa89a09a8e31f612f80c5b1b04dee1fd587c996dd6167736e420105745ccf56bc51e3cbfb4c8857a485962d6ca4401d868bca0efff50",
+      "salt": "9e756e98462523037fb5895f721f3a42"
+    },
+    {
+      "id": "u-viewer",
+      "username": "viewer_anika",
+      "email": "anika@viewer.com",
+      "role": "user",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "bio": "Cinephile, Bengali literature student, and movie enthusiast.",
+      "createdAt": "2026-02-01T00:00:00.000Z",
+      "subscribersCount": 140,
+      "subscribedCreators": [
+        "u-creator"
+      ],
+      "passwordHash": "6e3585b58ed8b04738e9acbe5b209f48d61c5acdf503470d5235960d68e97ae8bd0be8fb4d6c3dc7ba7ecc7a76433a36eb6de67c7df5d30608a7afb9d99f3f9d",
+      "salt": "b9281d92255eac2bc7b28e2af9a3bf09"
+    }
+  ],
+  "movies": [
+    {
+      "id": "m-toofan",
+      "title": "Toofan",
+      "description": "A ruthless gangster from the 1990s rises through the Dhaka underworld, facing rivals and police alike in a high-octane battle for dominance across Bangladesh and West Bengal.",
+      "poster": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=600&auto=format&fit=crop&q=80",
+      "backdrop": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=1600&auto=format&fit=crop&q=80",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+      "trailerUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "genre": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "language": "Bengali",
+      "releaseYear": 2024,
+      "quality": "4K",
+      "duration": "2h 25m",
+      "durationSeconds": 8700,
+      "cast": [
+        "Shakib Khan",
+        "Mimi Chakraborty",
+        "Nabila",
+        "Chanchal Chowdhury"
+      ],
+      "director": "Raihan Rafi",
+      "tags": [
+        "toofan",
+        "shakib khan",
+        "dhallywood",
+        "action",
+        "blockbuster",
+        "bengali"
+      ],
+      "views": 3450001,
+      "likes": 184000,
+      "dislikes": 2400,
+      "rating": 9.1,
+      "ratingCount": 38200,
+      "uploadedBy": "u-creator",
+      "uploaderName": "creator_rahim",
+      "uploaderAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "isPublished": true,
+      "status": "approved",
+      "isFeatured": true,
+      "isTrending": true,
+      "category": "Movies",
+      "createdAt": "2026-02-10T00:00:00.000Z"
+    },
+    {
+      "id": "m-hawa",
+      "title": "Hawa",
+      "description": "A deep-sea fishing trawler named F.B. Mayer Doa ventures into the Bay of Bengal. Tension rises among the eight fishermen when they catch a mysterious mute woman in their fishing net.",
+      "poster": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
+      "backdrop": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&auto=format&fit=crop&q=80",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+      "trailerUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "genre": [
+        "Mystery",
+        "Drama",
+        "Thriller"
+      ],
+      "language": "Bengali",
+      "releaseYear": 2022,
+      "quality": "4K",
+      "duration": "2h 11m",
+      "durationSeconds": 7860,
+      "cast": [
+        "Chanchal Chowdhury",
+        "Nazifa Tushi",
+        "Sariful Razz",
+        "Shohel Mondol"
+      ],
+      "director": "Mejbaur Rahman Sumon",
+      "tags": [
+        "hawa",
+        "chanchal chowdhury",
+        "sea",
+        "mystery",
+        "bengali",
+        "award winner"
+      ],
+      "views": 2890000,
+      "likes": 142000,
+      "dislikes": 1800,
+      "rating": 9.3,
+      "ratingCount": 42100,
+      "uploadedBy": "u-creator",
+      "uploaderName": "creator_rahim",
+      "uploaderAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "isPublished": true,
+      "status": "approved",
+      "isFeatured": true,
+      "isTrending": true,
+      "category": "Movies",
+      "createdAt": "2026-01-20T00:00:00.000Z"
+    },
+    {
+      "id": "m-surongo",
+      "title": "Surongo",
+      "description": "An impoverished well-digger driven by love and desperation plans an audacious underground heist to rob a vault by tunneling under a bank branch in Sunamganj.",
+      "poster": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600&auto=format&fit=crop&q=80",
+      "backdrop": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1600&auto=format&fit=crop&q=80",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "trailerUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "genre": [
+        "Crime",
+        "Thriller",
+        "Drama"
+      ],
+      "language": "Bengali",
+      "releaseYear": 2023,
+      "quality": "1080p",
+      "duration": "2h 30m",
+      "durationSeconds": 9000,
+      "cast": [
+        "Afran Nisho",
+        "Tama Mirza",
+        "Mostafa Monwar"
+      ],
+      "director": "Raihan Rafi",
+      "tags": [
+        "surongo",
+        "afran nisho",
+        "heist",
+        "bengali",
+        "bank"
+      ],
+      "views": 1950000,
+      "likes": 96000,
+      "dislikes": 1100,
+      "rating": 8.7,
+      "ratingCount": 26400,
+      "uploadedBy": "u-creator",
+      "uploaderName": "creator_rahim",
+      "uploaderAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "isPublished": true,
+      "status": "approved",
+      "isFeatured": false,
+      "isTrending": true,
+      "category": "Movies",
+      "createdAt": "2026-01-25T00:00:00.000Z"
+    },
+    {
+      "id": "m-priyotoma",
+      "title": "Priyotoma",
+      "description": "A poignant and romantic tragedy tracing the devotion and sacrifice of two lovers tested across decades against turbulent societal norms.",
+      "poster": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?w=600&auto=format&fit=crop&q=80",
+      "backdrop": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=1600&auto=format&fit=crop&q=80",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+      "trailerUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "genre": [
+        "Romance",
+        "Drama",
+        "Action"
+      ],
+      "language": "Bengali",
+      "releaseYear": 2023,
+      "quality": "1080p",
+      "duration": "2h 18m",
+      "durationSeconds": 8280,
+      "cast": [
+        "Shakib Khan",
+        "Idhika Paul",
+        "Kazi Hayat",
+        "Shahiduzzaman Selim"
+      ],
+      "director": "Himel Ashraf",
+      "tags": [
+        "priyotoma",
+        "shakib khan",
+        "love story",
+        "dhallywood",
+        "bengali"
+      ],
+      "views": 2650000,
+      "likes": 128000,
+      "dislikes": 1900,
+      "rating": 8.6,
+      "ratingCount": 31000,
+      "uploadedBy": "u-admin",
+      "uploaderName": "admin",
+      "isPublished": true,
+      "status": "approved",
+      "isFeatured": false,
+      "isTrending": false,
+      "category": "Movies",
+      "createdAt": "2026-01-10T00:00:00.000Z"
+    },
+    {
+      "id": "m-jawan",
+      "title": "Jawan",
+      "description": "A former prison warden leads a team of women in vigilante missions to right societal wrongs, uncovering a dark web of corruption tying back to his enigmatic past.",
+      "poster": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=600&auto=format&fit=crop&q=80",
+      "backdrop": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1600&auto=format&fit=crop&q=80",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+      "trailerUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "genre": [
+        "Action",
+        "Thriller",
+        "Drama"
+      ],
+      "language": "Hindi",
+      "releaseYear": 2023,
+      "quality": "4K",
+      "duration": "2h 49m",
+      "durationSeconds": 10140,
+      "cast": [
+        "Shah Rukh Khan",
+        "Nayanthara",
+        "Vijay Sethupathi",
+        "Deepika Padukone"
+      ],
+      "director": "Atlee",
+      "tags": [
+        "jawan",
+        "srk",
+        "bollywood",
+        "action",
+        "atlee"
+      ],
+      "views": 5200001,
+      "likes": 380000,
+      "dislikes": 4200,
+      "rating": 8.9,
+      "ratingCount": 78000,
+      "uploadedBy": "u-admin",
+      "uploaderName": "admin",
+      "isPublished": true,
+      "status": "approved",
+      "isFeatured": true,
+      "isTrending": true,
+      "category": "Movies",
+      "createdAt": "2026-01-05T00:00:00.000Z"
+    },
+    {
+      "id": "m-animal",
+      "title": "Animal",
+      "description": "A violent and psychologically complex heir to a mega conglomerate embarks on a bloody quest of vengeance to protect his estranged father.",
+      "poster": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=600&auto=format&fit=crop&q=80",
+      "backdrop": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=1600&auto=format&fit=crop&q=80",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+      "trailerUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "genre": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "language": "Hindi",
+      "releaseYear": 2023,
+      "quality": "4K",
+      "duration": "3h 21m",
+      "durationSeconds": 12060,
+      "cast": [
+        "Ranbir Kapoor",
+        "Anil Kapoor",
+        "Bobby Deol",
+        "Rashmika Mandanna"
+      ],
+      "director": "Sandeep Reddy Vanga",
+      "tags": [
+        "animal",
+        "ranbir kapoor",
+        "vanga",
+        "action",
+        "hindi"
+      ],
+      "views": 4100000,
+      "likes": 270000,
+      "dislikes": 9500,
+      "rating": 8.5,
+      "ratingCount": 65000,
+      "uploadedBy": "u-creator",
+      "uploaderName": "creator_rahim",
+      "isPublished": true,
+      "status": "approved",
+      "isFeatured": false,
+      "isTrending": true,
+      "category": "Movies",
+      "createdAt": "2026-01-12T00:00:00.000Z"
+    },
+    {
+      "id": "m-oppenheimer",
+      "title": "Oppenheimer",
+      "description": "The pulse-pounding story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb, and the dramatic political fallout that followed.",
+      "poster": "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=600&auto=format&fit=crop&q=80",
+      "backdrop": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1600&auto=format&fit=crop&q=80",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+      "trailerUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "genre": [
+        "Biography",
+        "Drama",
+        "History"
+      ],
+      "language": "English",
+      "releaseYear": 2023,
+      "quality": "4K",
+      "duration": "3h 00m",
+      "durationSeconds": 10800,
+      "cast": [
+        "Cillian Murphy",
+        "Emily Blunt",
+        "Matt Damon",
+        "Robert Downey Jr."
+      ],
+      "director": "Christopher Nolan",
+      "tags": [
+        "nolan",
+        "oppenheimer",
+        "oscar",
+        "hollywood",
+        "physics"
+      ],
+      "views": 6800000,
+      "likes": 495000,
+      "dislikes": 3100,
+      "rating": 9.4,
+      "ratingCount": 110000,
+      "uploadedBy": "u-admin",
+      "uploaderName": "admin",
+      "isPublished": true,
+      "status": "approved",
+      "isFeatured": true,
+      "isTrending": true,
+      "category": "Movies",
+      "createdAt": "2026-01-08T00:00:00.000Z"
+    },
+    {
+      "id": "m-dune2",
+      "title": "Dune: Part Two",
+      "description": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family. Facing a choice between love and destiny, he prevents a terrible future.",
+      "poster": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600&auto=format&fit=crop&q=80",
+      "backdrop": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&auto=format&fit=crop&q=80",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "trailerUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "genre": [
+        "Sci-Fi",
+        "Adventure",
+        "Action"
+      ],
+      "language": "English",
+      "releaseYear": 2024,
+      "quality": "4K",
+      "duration": "2h 46m",
+      "durationSeconds": 9960,
+      "cast": [
+        "Timothée Chalamet",
+        "Zendaya",
+        "Rebecca Ferguson",
+        "Javier Bardem"
+      ],
+      "director": "Denis Villeneuve",
+      "tags": [
+        "dune",
+        "sci-fi",
+        "arrakis",
+        "hollywood",
+        "epic"
+      ],
+      "views": 5900000,
+      "likes": 410000,
+      "dislikes": 2900,
+      "rating": 9.2,
+      "ratingCount": 89000,
+      "uploadedBy": "u-creator",
+      "uploaderName": "creator_rahim",
+      "isPublished": true,
+      "status": "approved",
+      "isFeatured": false,
+      "isTrending": true,
+      "category": "Movies",
+      "createdAt": "2026-02-05T00:00:00.000Z"
+    },
+    {
+      "id": "m-rrr",
+      "title": "RRR",
+      "description": "A fearless revolutionary and an officer in the British force decide to join forces in 1920s India before embarking on an epic journey to free their people.",
+      "poster": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
+      "backdrop": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=1600&auto=format&fit=crop&q=80",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+      "trailerUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "genre": [
+        "Action",
+        "Drama"
+      ],
+      "language": "Telugu",
+      "releaseYear": 2022,
+      "quality": "4K",
+      "duration": "3h 07m",
+      "durationSeconds": 11220,
+      "cast": [
+        "N. T. Rama Rao Jr.",
+        "Ram Charan",
+        "Ajay Devgn",
+        "Alia Bhatt"
+      ],
+      "director": "S. S. Rajamouli",
+      "tags": [
+        "rrr",
+        "rajamouli",
+        "telugu",
+        "south indian",
+        "naatu naatu"
+      ],
+      "views": 7400001,
+      "likes": 580000,
+      "dislikes": 4500,
+      "rating": 9.3,
+      "ratingCount": 132000,
+      "uploadedBy": "u-admin",
+      "uploaderName": "admin",
+      "isPublished": true,
+      "status": "approved",
+      "isFeatured": true,
+      "isTrending": true,
+      "category": "Movies",
+      "createdAt": "2026-01-14T00:00:00.000Z"
+    },
+    {
+      "id": "m-leo",
+      "title": "Leo",
+      "description": "Parthiban is a mild-mannered cafe owner in Kashmir who becomes a local hero after thwarting an armed gang, but gets targeted by gangsters claiming he is their long-lost enforcer Leo Das.",
+      "poster": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=600&auto=format&fit=crop&q=80",
+      "backdrop": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=1600&auto=format&fit=crop&q=80",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+      "trailerUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "genre": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "language": "Tamil",
+      "releaseYear": 2023,
+      "quality": "1080p",
+      "duration": "2h 44m",
+      "durationSeconds": 9840,
+      "cast": [
+        "Thalapathy Vijay",
+        "Sanjay Dutt",
+        "Arjun Sarja",
+        "Trisha Krishnan"
+      ],
+      "director": "Lokesh Kanagaraj",
+      "tags": [
+        "leo",
+        "vijay",
+        "lcu",
+        "tamil",
+        "action"
+      ],
+      "views": 3900001,
+      "likes": 245000,
+      "dislikes": 3100,
+      "rating": 8.5,
+      "ratingCount": 52000,
+      "uploadedBy": "u-creator",
+      "uploaderName": "creator_rahim",
+      "isPublished": true,
+      "status": "approved",
+      "isFeatured": false,
+      "isTrending": false,
+      "category": "Movies",
+      "createdAt": "2026-01-18T00:00:00.000Z"
+    },
+    {
+      "id": "m-parasite",
+      "title": "Parasite",
+      "description": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+      "poster": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?w=600&auto=format&fit=crop&q=80",
+      "backdrop": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1600&auto=format&fit=crop&q=80",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+      "trailerUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "genre": [
+        "Drama",
+        "Thriller",
+        "Comedy"
+      ],
+      "language": "Korean",
+      "releaseYear": 2019,
+      "quality": "4K",
+      "duration": "2h 12m",
+      "durationSeconds": 7920,
+      "cast": [
+        "Song Kang-ho",
+        "Lee Sun-kyun",
+        "Cho Yeo-jeong",
+        "Choi Woo-shik"
+      ],
+      "director": "Bong Joon-ho",
+      "tags": [
+        "parasite",
+        "korean",
+        "bong joon ho",
+        "oscar",
+        "k-drama"
+      ],
+      "views": 4700000,
+      "likes": 360000,
+      "dislikes": 2100,
+      "rating": 9.3,
+      "ratingCount": 94000,
+      "uploadedBy": "u-admin",
+      "uploaderName": "admin",
+      "isPublished": true,
+      "status": "approved",
+      "isFeatured": false,
+      "isTrending": false,
+      "category": "Movies",
+      "createdAt": "2026-01-03T00:00:00.000Z"
+    },
+    {
+      "id": "m-spiderman",
+      "title": "Spider-Man: Across the Spider-Verse",
+      "description": "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence.",
+      "poster": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=600&auto=format&fit=crop&q=80",
+      "backdrop": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=1600&auto=format&fit=crop&q=80",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "trailerUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "genre": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "language": "English",
+      "releaseYear": 2023,
+      "quality": "4K",
+      "duration": "2h 20m",
+      "durationSeconds": 8400,
+      "cast": [
+        "Shameik Moore",
+        "Hailee Steinfeld",
+        "Oscar Isaac"
+      ],
+      "director": "Joaquim Dos Santos",
+      "tags": [
+        "animation",
+        "spiderman",
+        "marvel",
+        "multiverse"
+      ],
+      "views": 5100001,
+      "likes": 420000,
+      "dislikes": 2800,
+      "rating": 9.2,
+      "ratingCount": 88000,
+      "uploadedBy": "u-creator",
+      "uploaderName": "creator_rahim",
+      "isPublished": true,
+      "status": "approved",
+      "isFeatured": false,
+      "isTrending": true,
+      "category": "Animated",
+      "createdAt": "2026-01-16T00:00:00.000Z"
+    },
+    {
+      "id": "m-karagar",
+      "title": "Karagar",
+      "description": "A mysterious man appears inside cell 501 of Akashnagar Central Jail—a cell that had remained locked and abandoned for 50 years. He claims he has lived for 250 years.",
+      "poster": "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=600&auto=format&fit=crop&q=80",
+      "backdrop": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1600&auto=format&fit=crop&q=80",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+      "trailerUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "genre": [
+        "Mystery",
+        "Thriller",
+        "Drama"
+      ],
+      "language": "Bengali",
+      "releaseYear": 2022,
+      "quality": "1080p",
+      "duration": "Season 1 · 7 Episodes",
+      "durationSeconds": 12600,
+      "cast": [
+        "Chanchal Chowdhury",
+        "Intekhab Dinar",
+        "Tasnia Farin",
+        "FS Nayeem"
+      ],
+      "director": "Syed Ahmed Shawki",
+      "tags": [
+        "karagar",
+        "web series",
+        "chorki",
+        "bengali",
+        "chanchal chowdhury"
+      ],
+      "views": 3100000,
+      "likes": 195000,
+      "dislikes": 1400,
+      "rating": 9.4,
+      "ratingCount": 47000,
+      "uploadedBy": "u-creator",
+      "uploaderName": "creator_rahim",
+      "isPublished": true,
+      "status": "approved",
+      "isFeatured": true,
+      "isTrending": true,
+      "category": "Web Series",
+      "createdAt": "2026-01-22T00:00:00.000Z"
+    },
+    {
+      "id": "m-taqdeer",
+      "title": "Taqdeer",
+      "description": "A freezer van driver finds an unidentified corpse inside his vehicle, unraveling a deadly conspiracy that tests his morality, family, and survival instincts.",
+      "poster": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600&auto=format&fit=crop&q=80",
+      "backdrop": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=1600&auto=format&fit=crop&q=80",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+      "trailerUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "genre": [
+        "Crime",
+        "Thriller",
+        "Suspense"
+      ],
+      "language": "Bengali",
+      "releaseYear": 2020,
+      "quality": "1080p",
+      "duration": "Season 1 · 8 Episodes",
+      "durationSeconds": 14400,
+      "cast": [
+        "Chanchal Chowdhury",
+        "Sanjida Preeti",
+        "Manoj Kumar Pramanik"
+      ],
+      "director": "Syed Ahmed Shawki",
+      "tags": [
+        "taqdeer",
+        "hoichoi",
+        "web series",
+        "bengali"
+      ],
+      "views": 2200000,
+      "likes": 130000,
+      "dislikes": 1100,
+      "rating": 9.1,
+      "ratingCount": 34000,
+      "uploadedBy": "u-admin",
+      "uploaderName": "admin",
+      "isPublished": true,
+      "status": "approved",
+      "isFeatured": false,
+      "isTrending": false,
+      "category": "Web Series",
+      "createdAt": "2026-01-09T00:00:00.000Z"
+    },
+    {
+      "id": "m-pending-demo",
+      "title": "Dhaka Under Siege (Pending Approval)",
+      "description": "Independent documentary detailing the urban growth and cinematic history of Dhaka city.",
+      "poster": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "genre": [
+        "Documentary"
+      ],
+      "language": "Bengali",
+      "releaseYear": 2026,
+      "quality": "1080p",
+      "duration": "54m",
+      "durationSeconds": 3240,
+      "cast": [
+        "Dhaka Cine Club"
+      ],
+      "director": "Rahim Khan",
+      "tags": [
+        "documentary",
+        "dhaka",
+        "history"
+      ],
+      "views": 12,
+      "likes": 2,
+      "dislikes": 0,
+      "rating": 8,
+      "ratingCount": 2,
+      "uploadedBy": "u-creator",
+      "uploaderName": "creator_rahim",
+      "isPublished": false,
+      "status": "pending",
+      "category": "Movies",
+      "createdAt": "2026-02-12T00:00:00.000Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "c-1",
+      "movieId": "m-toofan",
+      "userId": "u-viewer",
+      "username": "viewer_anika",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "content": "Shakib Khan and Chanchal Chowdhury together on screen is pure goosebumps! The BGM and cinematography are world class. Great to stream in 4K on MOVIE PANEL BD!",
+      "createdAt": "2026-02-11T14:20:00.000Z",
+      "likes": 124,
+      "likedBy": [
+        "u-admin",
+        "u-creator"
+      ]
+    },
+    {
+      "id": "c-2",
+      "movieId": "m-hawa",
+      "userId": "u-admin",
+      "username": "admin",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "content": "Masterpiece of Bengali folklore and tension. The sound design of the ocean waves makes you feel like you are stranded right there on the trawler.",
+      "createdAt": "2026-01-21T18:45:00.000Z",
+      "likes": 89,
+      "likedBy": [
+        "u-viewer"
+      ]
+    },
+    {
+      "id": "c-3",
+      "movieId": "m-oppenheimer",
+      "userId": "u-creator",
+      "username": "creator_rahim",
+      "userAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "content": "The Trinity test sequence without music is one of the most chilling moments in cinema history. Cillian Murphy gave the performance of a lifetime.",
+      "createdAt": "2026-01-10T11:00:00.000Z",
+      "likes": 215,
+      "likedBy": [
+        "u-viewer",
+        "u-admin"
+      ]
+    }
+  ],
+  "playlists": [
+    {
+      "id": "pl-bengali-hits",
+      "userId": "u-creator",
+      "title": "Dhallywood Blockbusters",
+      "description": "The highest-grossing and critically acclaimed modern Bengali movies.",
+      "isPublic": true,
+      "movieIds": [
+        "m-toofan",
+        "m-hawa",
+        "m-surongo",
+        "m-priyotoma"
+      ],
+      "createdAt": "2026-01-25T00:00:00.000Z",
+      "updatedAt": "2026-02-10T00:00:00.000Z"
+    },
+    {
+      "id": "pl-top-thrillers",
+      "userId": "u-viewer",
+      "title": "Weekend Suspense & Mystery",
+      "description": "Edge-of-the-seat thrillers and web series to binge watch.",
+      "isPublic": true,
+      "movieIds": [
+        "m-karagar",
+        "m-taqdeer",
+        "m-hawa"
+      ],
+      "createdAt": "2026-02-02T00:00:00.000Z",
+      "updatedAt": "2026-02-05T00:00:00.000Z"
+    }
+  ],
+  "watchHistory": [
+    {
+      "id": "wh-1",
+      "userId": "u-viewer",
+      "movieId": "m-toofan",
+      "progressSeconds": 3420,
+      "durationSeconds": 8700,
+      "lastWatchedAt": "2026-02-12T08:15:00.000Z"
+    },
+    {
+      "id": "wh-2",
+      "userId": "u-viewer",
+      "movieId": "m-karagar",
+      "progressSeconds": 1250,
+      "durationSeconds": 12600,
+      "lastWatchedAt": "2026-02-11T20:30:00.000Z"
+    }
+  ],
+  "watchLater": [
+    {
+      "id": "wl-1",
+      "userId": "u-viewer",
+      "movieId": "m-surongo",
+      "addedAt": "2026-02-10T00:00:00.000Z"
+    },
+    {
+      "id": "wl-2",
+      "userId": "u-viewer",
+      "movieId": "m-oppenheimer",
+      "addedAt": "2026-02-09T00:00:00.000Z"
+    }
+  ],
+  "userVotes": [
+    {
+      "userId": "u-viewer",
+      "movieId": "m-toofan",
+      "vote": "like"
+    },
+    {
+      "userId": "u-viewer",
+      "movieId": "m-hawa",
+      "vote": "like"
+    },
+    {
+      "userId": "u-admin",
+      "movieId": "m-toofan",
+      "vote": "like"
+    }
+  ],
+  "userRatings": [],
+  "notifications": [
+    {
+      "id": "notif-1",
+      "userId": "u-viewer",
+      "title": "New Movie Released!",
+      "message": "creator_rahim published \"Toofan\" in 4K UHD. Start streaming now!",
+      "link": "/movie/m-toofan",
+      "read": false,
+      "createdAt": "2026-02-10T12:00:00.000Z"
+    },
+    {
+      "id": "notif-2",
+      "userId": "u-creator",
+      "title": "Upload Approved",
+      "message": "Your upload \"Toofan\" was reviewed and approved by the admin team.",
+      "link": "/movie/m-toofan",
+      "read": true,
+      "createdAt": "2026-02-10T11:30:00.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-all",
+      "name": "All Movies",
+      "slug": "all",
+      "icon": "Film",
+      "enabled": true,
+      "order": 0
+    },
+    {
+      "id": "cat-bengali",
+      "name": "Bengali Movies",
+      "slug": "bengali",
+      "icon": "Flame",
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "cat-hindi",
+      "name": "Hindi Movies",
+      "slug": "hindi",
+      "icon": "Sparkles",
+      "enabled": true,
+      "order": 2
+    },
+    {
+      "id": "cat-english",
+      "name": "English Movies",
+      "slug": "english",
+      "icon": "Globe",
+      "enabled": true,
+      "order": 3
+    },
+    {
+      "id": "cat-tamil",
+      "name": "Tamil Movies",
+      "slug": "tamil",
+      "icon": "Tv",
+      "enabled": true,
+      "order": 4
+    },
+    {
+      "id": "cat-telugu",
+      "name": "Telugu Movies",
+      "slug": "telugu",
+      "icon": "Clapperboard",
+      "enabled": true,
+      "order": 5
+    },
+    {
+      "id": "cat-korean",
+      "name": "Korean Movies",
+      "slug": "korean",
+      "icon": "PlaySquare",
+      "enabled": true,
+      "order": 6
+    },
+    {
+      "id": "cat-animated",
+      "name": "Animated Movies",
+      "slug": "animated",
+      "icon": "Ghost",
+      "enabled": true,
+      "order": 7
+    },
+    {
+      "id": "cat-webseries",
+      "name": "Web Series",
+      "slug": "webseries",
+      "icon": "Layers",
+      "enabled": true,
+      "order": 8
+    },
+    {
+      "id": "cat-tvshows",
+      "name": "TV Shows",
+      "slug": "tvshows",
+      "icon": "Radio",
+      "enabled": true,
+      "order": 9
+    }
+  ],
+  "reports": [],
+  "activityLogs": [
+    {
+      "id": "log-1794323541946",
+      "adminUsername": "admin",
+      "action": "Updated Admin/Moderator Security Passkeys",
+      "target": "Security Credentials",
+      "timestamp": "2026-11-10T15:12:21.946Z"
+    },
+    {
+      "id": "log-1794323512256",
+      "adminUsername": "admin",
+      "action": "Passkey Authentication Success (ADMIN)",
+      "target": "ADMIN PANEL ACCESS",
+      "timestamp": "2026-11-10T15:11:52.256Z"
+    },
+    {
+      "id": "log-1",
+      "adminUsername": "admin",
+      "action": "Approved Movie",
+      "target": "Toofan (m-toofan)",
+      "timestamp": "2026-02-10T11:30:00.000Z",
+      "details": "Verified video source and copyright ownership."
+    },
+    {
+      "id": "log-2",
+      "adminUsername": "admin",
+      "action": "Updated Settings",
+      "target": "Homepage Announcement",
+      "timestamp": "2026-02-01T09:00:00.000Z",
+      "details": "Enabled weekend premiere promotional banner."
+    }
+  ],
+  "settings": {
+    "siteName": "MOVIE PANEL BD",
+    "siteTagline": "Premier Bengali & Global Movie Streaming Platform",
+    "announcement": "Welcome to MOVIE PANEL BD! Stream in 4K UHD with theater mode and upload your authorized films.",
+    "showAnnouncement": true,
+    "bannerAdEnabled": true,
+    "bannerAdText": "Special Weekend Premiere: Watch the latest Dhallywood & Tollywood releases exclusively on MOVIE PANEL BD!",
+    "bannerAdLink": "#",
+    "featuredMovieId": "m-toofan",
+    "allowPublicRegistration": true,
+    "requireAdminApprovalForUploads": true,
+    "adminKey": "Devjyoti2003",
+    "moderatorKey": "Devjyoti2003"
+  }
+}

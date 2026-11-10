@@ -1,0 +1,6 @@
+{
+  "name": "MOVIE PANEL BD - Movie Streaming & Uploading Platform",
+  "description": "Complete, professional movie streaming and uploading platform with YouTube and Netflix inspired cinematic design, HLS/HTML5 video player, user dashboards, and admin control.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
